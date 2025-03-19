@@ -30,4 +30,4 @@ An Electron-based desktop application that provides AI assistance with features 
 ISC
 
 ## Author
-Your Name 
+Chamika Rasanjana
