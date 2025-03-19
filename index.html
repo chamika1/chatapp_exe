@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Assistant</h1>
+        <div class="chat-container" id="chatContainer">
+            <!-- Chat messages will appear here -->
+        </div>
+        <div class="input-container">
+            <button id="voiceButton" class="icon-button" title="Voice Input">
+                <i class="fas fa-microphone"></i>
+            </button>
+            <input type="text" id="userInput" placeholder="Type your message..." autocomplete="off">
+            <button id="sendButton" class="icon-button">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+            <button id="imageButton" class="icon-button" title="Generate Image">
+                <i class="fas fa-image"></i>
+            </button>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
